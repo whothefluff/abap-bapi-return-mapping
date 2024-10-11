@@ -36,3 +36,7 @@ if e is bound.
 endif.
 ```
 Or create your own implementation of _ZIF_BAPI_TO_EXC_FUNCTION_.
+   
+# dependencies:
+  - [https://github.com/whothefluff/abap-messages](https://github.com/whothefluff/abap-messages)
+  - [https://github.com/whothefluff/abap-exceptions](https://github.com/whothefluff/abap-exceptions)
