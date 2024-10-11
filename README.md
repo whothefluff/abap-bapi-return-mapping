@@ -8,7 +8,7 @@ Reuse class _ZCL_BAPIRET_TO_BAPI_E_FUNCTION_ (which returns a child of ZCX_NO_CH
 ```abap
 data(bapi_error_msg) = new zcl_free_message( `Creation of x failed` ).
 
-call function 'BAPI_*'
+call function 'BAPI_CREATE_*'
   tables
     return = return.
 
@@ -23,7 +23,7 @@ endif.
 ```abap
 data(to_bapi_e) = new zcl_bapiret_to_bapi_e_function( ).
 
-call function 'BAPI_CREATE*'
+call function 'BAPI_CREATE_*'
   tables
     return = return.
 
